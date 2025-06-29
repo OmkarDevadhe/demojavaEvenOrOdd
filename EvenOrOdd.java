@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class EvenOrOdd {
 
     int value;
-    boolean output;
+    boolean Result;
     public static void main(String[] args) {
         EvenOrOdd p1 = new EvenOrOdd();
         p1.value = p1.getValueFromUser();
-        p1.output=p1.valueIsEvenOROdd();
-        System.out.println(p1.output);
+        p1.Result=p1.valueIsEvenOROdd();
+        System.out.println(p1.Result);
     }
 
     int getValueFromUser() {
